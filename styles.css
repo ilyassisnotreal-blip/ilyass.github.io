@@ -202,3 +202,46 @@ color:#25D366;
 .fa-tiktok:hover{
 color:black;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* تنسيق العنصر بالكامل */
+.portfolio-item {
+    margin-bottom: 30px;
+    transition: all 0.5s ease; /* سرعة الحركة */
+    transform: translateX(20px); /* البداية تكون مزاحة لليمين قليلاً */
+    opacity: 0.7; /* تكون باهتة قليلاً */
+}
+
+/* التأثير عند مرور الماوس (الدخول) */
+.portfolio-item:hover {
+    transform: translateX(0); /* تعود لمكانها الأصلي */
+    opacity: 1; /* تصبح واضحة تماماً */
+    padding-right: 15px; /* تعطي مساحة كأنها دخلت لليسار */
+}
+
+/* تنسيق الروابط داخل العنصر */
+.portfolio-item a {
+    color: #4da3ff; /* لون أزرق فاتح ليناسب الخلفية الغامقة */
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* تنسيق النصوص */
+.portfolio-item p {
+    color: #ccc;
+    font-size: 16px;
+    margin: 0;
+}
